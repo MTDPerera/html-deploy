@@ -21,4 +21,4 @@ jobs:
           key: ${{ secrets.SERVER_SSH_KEY }}
           port: 22
           source: "index.html"
-          target: "~/home/testgit/"
+          target: "/home/testgit/"
